@@ -23,14 +23,17 @@ input[type="submit"]:hover {
     background-color:#4CAF50;
 }
 .upper-part {
-    background-color:#4CAF50 ; /* Light green color */
+    background-color:#cadacc ; /* Light green color */
     padding: 10px 0;
     text-align: center;
 }
 /* Navbar styling */
-nav {
-    background-color: #4CAF50; /* Navbar background color */
-    overflow: hidden;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cadacc;
+    padding: 10px;
 }
 
 nav ul {
@@ -52,5 +55,5 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #75af4c; /* Background color on hover */
+    background-color: #8eaf4c; /* Background color on hover */
 }
